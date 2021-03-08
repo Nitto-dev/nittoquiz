@@ -127,7 +127,7 @@ class TriviaBloc {
   void _nextQuestion() {
     index++;
 
-    if (index < questions.length) {
+    if (index < questions.length && index!=10) {
       triviaState.value.questionIndex++;
       currentQuestion.value = questions.value[index];
       playTrivia();

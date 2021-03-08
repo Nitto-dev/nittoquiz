@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:frideos/frideos.dart';
+import 'package:nittoquiz/src/screens/game.dart';
 import 'package:nittoquiz/src/screens/knowledge_page.dart';
 
 import '../models/appstate.dart';
@@ -104,7 +105,15 @@ class MainPage extends StatelessWidget {
                             child: Material(
                               color: Colors.transparent,
                               child: InkWell(
-                                onTap: ()=>print('under Develop'),
+                                onTap: (){
+                                  loadString('assets/BOM Trivia.json');
+                                  restartQuiz();
+                                  Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                  builder: (context) => game(),
+                                  ));
+                                },
                                 child: Padding(
                                   padding: const EdgeInsets.all(20.0),
                                   child: Column(

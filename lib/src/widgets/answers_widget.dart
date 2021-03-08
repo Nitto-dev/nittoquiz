@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:frideos/frideos.dart';
@@ -138,6 +139,7 @@ class _AnswersWidgetState extends State<AnswersWidget>
             child: FadeInWidget(
               duration: 750,
               child: Container(
+                height: 300,
                 decoration: BoxDecoration(
                     color: (index == widget.answerAnimation.chosenAnswerIndex)
                         ? colorAnimation.value
@@ -171,7 +173,10 @@ class _AnswersWidgetState extends State<AnswersWidget>
                         questionLeadings[index],
                         style: answersLeadingStyle,
                       )),
-                  title: Text(widget.question.answers[index], style: answersStyle),
+                  title: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(widget.question.answers[index], style: answersStyle),
+                  ),
                 ),
               ),
             ),
