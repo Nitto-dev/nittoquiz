@@ -2,61 +2,59 @@
     "questions": [
       {
         "number": 1,
-        "question": "How many sub-books are there in the Book of Mormon?",
+        "question": "What variables should a Product Owner consider when ordering the Product Backlog?",
         "answers": [
-          "12",
-          "15",
-          "18",
-          "20"
-        ],
-        "correct_answer": 2   
-      },
-      {
-        "number": 2,
-        "question": "What was the name of the mountain to which the brother of Jared said 'Remove — and it was removed?'",
-        "answers": [
-          "Zerin",
-          "Serphim",
-          "Jershap",
-          "Shimrod"
-          
-        
+          "Anything that informs them to achieve the product's goals and to optimize the value delivered.",
+          "Development cohesion as indicated by the Developers.",
+          "Effort first, then value.",
+          "Lowest development cost in order to maximize Return on Investment (ROI)."
         ],
         "correct_answer": 1
       },
       {
-        "number": 3,
-        "question": "What noun is used as a verb in the Book of Mormon?",
+        "number": 2,
+        "question": "What is the Product Owner accountable for in Scrum?",
         "answers": [
-          "gladden",
-          "happying",
-          "excited",
-          "joyed"
+          "Writing the User Stories so they are comprehensive enough for the stakeholders.",
+          "Maximizing the value of the product resulting from the work of the Scrum Team.",
+          "Refining the top level Product Backlog items until they are ready to be handed over to the Scrum Team.",
+          "Describing an Increment at Sprint Planning and making sure that the Developers deliver it by the end of the Sprint."
+          
+        
+        ],
+        "correct_answer": 2
+      },
+      {
+        "number": 3,
+        "question": "The Product Owner's authority to change and update the Product Backlog is unlimited, except for:",
+        "answers": [
+          "Items the Scrum Master has identified as impediments.",
+          "Technical and architectural work that needs to be done first, as indicated by the chief enterprise architect.",
+          "Decisions by the CFO, the CEO or the board of directors.",
+          "There are no exceptions; the entire organization must respect a Product Owner's decisions."
           
         ],
         "correct_answer": 4
       },
       {
         "number": 4,
-        "question": "Ammon defended the flocks after being in the service of the king how long?",
+        "question": "A Product Owner is entitled to postpone the start of a new Sprint after the conclusion of a previous Sprint for the following reason:",
         "answers": [
-          "3 days",
-          "3 weekends",
-          "3 weeks",
-          "3 years"
-          
-    
+          "There is no acceptable reason. A new Sprint starts immediately after the conclusion of the previous Sprint.",
+          "he Product Owner has not identified a Sprint Goal.",
+          "The Quality Assurance department needs more time to make the previous Increment complete.",
+          "Not enough Product Backlog items are ready."
         ],
         "correct_answer": 1
       },
       {
         "number": 5,
-        "question": "Who was one of the 12 Nephite disciples?",
+        "question": "Which description best fits the role of the Product Owner?",
         "answers": [
-          "Jonas",
-          "Jonah",
-          "Judas",
-          "Judah"
+          "Value Maximizer",
+          "Chief Business Analyst.",
+          "Requirements Collector.",
+          "Project Manager 2.0."
           
           
         ],
@@ -64,23 +62,23 @@
       },
       {
         "number": 6,
-        "question": "Which adverb is used in the Book of Mormon?",
+        "question": "The Developers find out during the Sprint that they are not likely to build everything they forecast. What would you expect a Product Owner to do?",
         "answers": [
-          "gracefully",
-          "suspiciously",
-          "vicariously",
-          "circumspectly"
+          "Skip Product Backlog refinement activities.",
+          "Inform management that more resources are needed.",
+          "Change the Sprint Goal.",
+          "Re-negotiate the selected Product Backlog items with the Developers."
         ],
         "correct_answer": 4
       },
       {
         "number": 7,
-        "question": "What farewell phrase is used in the Book of Mormon?",
+        "question": "When can the Product Backlog be updated?",
         "answers": [
-          "adios",
-          "goodbye",
-          "ciao",
-          "adieu"
+          "Only during Product Backlog refinement sessions if the Product Owner is present.",
+          "Only after a Sprint Review if agreed to by the stakeholders.",
+          "Never, unless agreed to by the change request.",
+          "At any time when done by the Product Owner or a delegate."
           
     
         ],
@@ -89,36 +87,36 @@
      
       {
         "number": 8,
-        "question": "Who was NOT one of the Eight Witnesses ?",
+        "question": "How does an organization know that a product built using Scrum is successful?",
         "answers": [
-          "Hiram",
-          "Hyrum",
-          "David",
-          "Joseph"
+          "By measuring the actual time spent on development versus the time estimated for development.",
+          "By measuring that velocity has increased since the last release.",
+          "By releasing frequently, and measuring the value customers/users experience.",
+          "By the Product Owner and stakeholders accepting the Increment at the Sprint Review."
          
         ],
         "correct_answer": 3
       },
       {
         "number": 9,
-        "question": "What term is used in the Book of Mormon?",
+        "question": "Who creates the Definition of Done?",
         "answers": [
-          "lagoon",
-          "bay",
-          "gulf",
-          "ocean"
+          "The Scrum Team, in a collaborative effort where the result is the common denominator of all members' definitions.",
+          "The Product Owner as they are responsible for the product's success.",
+          "The organization (or the Scrum Team if none is available from the organization).",
+          "The Scrum Master as they are responsible for the Scrum Team's productivity."
          
         ],
         "correct_answer": 3
       },
       {
         "number": 10,
-        "question": "What phrase is found in the Book of Mormon ?",
+        "question": "The Product Owner manages the Product Backlog. Who is accountable for estimating the effort to complete the Product Backlog items?",
         "answers": [
-          "all-searching eye",
-          "ring of God",
-          "lips of the Lord",
-          "arm of wrath"
+          "The PMO.",
+          "The Product Owner.",
+          "The Developers.",
+          "test"
          
         ],
         "correct_answer": 1
